@@ -2,7 +2,7 @@
 FROM ubuntu:20.04
 
 # provide your contact info if you wish
-MAINTAINER Noureddin Sadawi, myemail@mail.com
+LABEL maintainer="Noureddin Sadawi <myemail@mail.com>"
 
 # run these commands .. 
 RUN apt update 
